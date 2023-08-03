@@ -19,7 +19,7 @@ public class MyGdxGame extends ApplicationAdapter {
 	public void render () {
 		ScreenUtils.clear(1, 0, 0, 1);
 		batch.begin();
-		batch.draw(img, 100, 200);
+		batch.draw(img, 10, 200);
 		batch.end();
 	}
 	
